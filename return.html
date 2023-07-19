@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <style>
+            img
+            {
+                width:200px;
+                animation: shake 0.5s linear infinite;
+            }
+    @keyframes shake
+    {
+        0%{
+            transform:rotate(10deg);
+        }
+        50%
+        {
+            transform:rotate(-10deg);
+        }
+    }
+    </style>
+    </head>
+<body>
+    <div align=center><h1><font color='BLUE'>Enter Book Id To Return</font></h1>
+    <img src="a15.png" height="200px" width="200px" align="LEFT"></a>';
+    <form action="bookreturn" method="get">
+        <table>
+            <tr>
+                <td>BOOK ID</td>
+                <td><input type="text" name="bid"></td>
+            </tr>
+            <tr>
+                <td>DATE OF RETURN</td>
+                <td><input type="text" name="dname"></td>
+            </tr>
+            <tr>
+			<td><a href='adminpage.html'><button type="button">Back</button></a></td>
+            <td><input type="reset" value="Reset"></td>
+
+             <td><input type="submit" name="save"></td>
+            </tr>
+        </table>
+    </form>
+    <marquee behavior=alternate scrollamount=12><h1><i>Enter date in this formate only (DD-MM-YY)</i></h1></marquee>");
+
+</div>
+</body>
+</html>

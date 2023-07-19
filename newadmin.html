@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <style>
+            img
+            {
+                width:200px;
+                animation: shake 0.5s linear infinite;
+            }
+    @keyframes shake
+    {
+        0%{
+            transform:rotate(10deg);
+        }
+        50%
+        {
+            transform:rotate(-10deg);
+        }
+    }
+    </style>
+    </head>
+<body>
+    <div align=center><font color="green" ><h1>New Admin Sign Up Page</h1></font></div>
+    <img src="a1.png" height="200px" width="200px" align="LEFT"></a>
+    <div align="center">
+    <form action="adminaccess" method="get">
+    <table >
+        <tr>
+            <td>Email</td>
+            <td><input type="email" name="ename"></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" name="pname"></td>
+        </tr>
+        <tr>
+            <td>Re enter_Password</td>
+            <td><input type="password" name="rpname"></td>
+        </tr>
+        <tr>
+			<td><a href='adminpage.html'><button type='button'>Back</button></a></td>
+            <td><input type="reset" value="Reset"></td>
+            <td><input type="submit" name="save"></td>
+        </tr>
+    </table>
+</form>
+</div>
+</body>
+</html>
